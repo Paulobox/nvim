@@ -53,7 +53,7 @@ return {
 						desc = " quit󰱞",
 						-- group = "",
 						action = "q",
-						key = "QQQ",
+						key = "QQQ or <leader>+qa",
 					},
 				},
 			},
