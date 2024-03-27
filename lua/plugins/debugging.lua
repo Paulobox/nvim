@@ -5,15 +5,36 @@ return {
 		"tpope/vim-fugitive",
 		"leoluz/nvim-dap-go", --Go
 		"mfussenegger/nvim-dap-python", --Python
-    "nvim-neotest/nvim-nio", --dapui prerequisite
+		"nvim-neotest/nvim-nio", --dapui prerequisite
 	},
 	config = function()
 		local dap = require("dap")
 		local dapui = require("dapui")
 
+		require("dap").configurations.javascript = {
+			{
+				type = "pwa-node",
+				request = "launch",
+				name = "Launch file",
+				program = "${file}",
+				cwd = "${workspaceFolder}",
+			},
+		}
+		require("dap").adapters["pwa-node"] = {
+			type = "server",
+			host = "localhost",
+			port = "${port}",
+			executable = {
+				command = "node",
+				-- 💀 Make sure to update this path to point to your installation
+				args = { "$HOME/Downloads/js-debug//src/dapDebugServer.js", "${port}" },
+			},
+		}
+
 		--no configuration found ? you need to add require:
 		require("dapui").setup()
 		require("dap-go").setup()
+		require("dap-python").setup()
 		require("dap-python").setup()
 
 		vim.fn.sign_define(

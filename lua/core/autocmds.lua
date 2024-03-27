@@ -10,3 +10,9 @@ autocmd CursorMoved * highlight CursorLineNr guifg=#e0af68
 augroup END
 ]])
 
+-- copy file's path
+vim.cmd([[
+    command! CPurl lua vim.fn.setreg('+', vim.fn.expand('%:p')) vim.api.nvim_out_write("Copied file path to clipboard\n")
+    nnoremap <Leader>cpurl :CPurl<CR>
+]])
+

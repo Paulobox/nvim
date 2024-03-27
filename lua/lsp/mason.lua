@@ -38,6 +38,7 @@ return {
 					"cspell",
 					"stylua",
 					"debugpy",
+					"eslint_d",
 				},
 			})
 		end,

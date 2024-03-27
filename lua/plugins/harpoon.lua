@@ -11,10 +11,10 @@ return {
       function()
         require("harpoon"):list():append()
       end,
-      desc = "harpoon file",
+      desc = "harpoon add file",
     },
     {
-      "<C-e>",
+      "<leader>ha",
       function()
         local harpoon = require("harpoon")
         harpoon.ui:toggle_quick_menu(harpoon:list())
