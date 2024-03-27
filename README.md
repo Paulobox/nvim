@@ -1,16 +1,12 @@
 ### <div title="Nvim config" align="center"><h6>${{\color{gold}\Huge{\textsf{  Personal {\color{lightskyblue}N{\color{yellowgreen}vim {\color{Goldenrod}config {\color{#CEE7FF}(Lazy💤 {\color{#00A6ED}plugin manager) \}}}}}}}}}\$<h6></div>
 ---
-### Prerequisites 🛠️ **`npm`**, **`python`**
+### Prerequisites 🛠️ **`npm`**,**`ripgrep`**,**`python`**
 ```bash
-sudo apt install npm -y
+sudo apt install npm ripgrep python3.12-venv -y
 ```
 
 
-```bash
-sudo apt install python3.12-venv 
-```
-
-or if not working:
+or if python is not there use older version:
 
 ```bash
 sudo apt install python3.11-venv 
