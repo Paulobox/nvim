@@ -29,7 +29,7 @@ git clone https://github.com/Paulobox/nvim
 
 ---
 
-###### #note Windows installation is more complicated🤓, some of **`lsp`** installations on Windows (for Mason plugin) needing Anaconda or [(Miniconda)]((https://www.anaconda.com/docs/getting-started/miniconda/install#powershell) prompt + you need clangd compiler on Windows for lsps **`mingw`** <br> 
+###### #note Windows installation is more complicated🤓, some of **`lsp`** installations on Windows (for Mason plugin) needing Anaconda or [(Miniconda)](https://www.anaconda.com/docs/getting-started/miniconda/install#powershell) prompt + you need clangd compiler on Windows for lsps **`mingw`** <br> 
 1. choco install mingw, choco install fzf.
 2. [node.js](https://nodejs.org/en/download) <br>
 3. npm install -g npm <br>
