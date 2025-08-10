@@ -61,8 +61,8 @@ enter your [wakapi](https://wakatime.com/settings/api-key) key
 
 
 to setup [chatgpt plugin](https://github.com/jackMort/ChatGPT.nvim) for neovim:
-- on Linux you can you use [password-store](https://www.passwordstore.org)  how to setup pass [youtube video](https://www.youtube.com/watch?v=FhwsfH2TpFA)<br>
-<!-- ►on Windows to quickly set up place your api key in Documents in file called **`openaikey.txt`** in **`Documents folder`**<br> -->
+- 🐧 on Linux you can you use [password-store](https://www.passwordstore.org)  how to setup pass [youtube video](https://www.youtube.com/watch?v=FhwsfH2TpFA)<br>
+<!-- - 🪟 on Windows to quickly set up place your api key in Documents in file called **`openaikey.txt`** in **`Documents folder`**<br> -->
 <!-- ►storing passwords in txt files is not safe.<br> -->
 - 🚨 If you don't want to setup chatgpt just **remove chatgpt.lua** file from plugins to avoid errors.
 
