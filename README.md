@@ -36,7 +36,7 @@ git clone https://github.com/Paulobox/nvim
 choco install mingw fzf make -y
 ```
 
-2. Install Node.js - [node.js](https://nodejs.org/en/download) <br>
+2. Install [Node.js](https://nodejs.org/en/download) <br>
 3. npm install -g npm <br>
 
 ---
