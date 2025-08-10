@@ -30,14 +30,17 @@ git clone https://github.com/Paulobox/nvim
 ---
 
 ###### #note Windows installation is more complicated🤓, some of **`lsp`** installations on Windows (for Mason plugin) needing Anaconda or [(Miniconda)](https://www.anaconda.com/docs/getting-started/miniconda/install#powershell) prompt + you need clangd compiler on Windows for lsps **`mingw`** <br> 
-1. Run powershell as administrator and install these with chocolatey:
+1. Open powershell as administrator and install these with chocolatey:
 
 ```powershell
 choco install mingw fzf make -y
 ```
 
 2. Install [Node.js](https://nodejs.org/en/download) <br>
-3. npm install -g npm <br>
+3. Run these command in terminal:
+```
+npm install -g npm <br>
+```
 
 ---
 
