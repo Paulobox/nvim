@@ -42,8 +42,10 @@ choco install mingw fzf make -y
 npm install -g npm
 ```
 
- <br>
- 
+### Important ⚠️
+###### #note for Windows, choco install make
+on Windows go to C:\Users\yourUsername\AppData\Local\nvim-data\lazy\telescope-fzf-native.nvim and run **`make'** command in powershell for telescope fzf plugin to work and avoid errors. <br><br>
+
 ---
 
 [WakaTime](https://wakatime.com/neovim)
@@ -57,9 +59,7 @@ enter your [wakapi](https://wakatime.com/settings/api-key) key
 
 ---
 
-### Important ⚠️
-###### #note for Windows, choco install make
-on Windows go to C:\Users\yourUsername\AppData\Local\nvim-data\lazy\telescope-fzf-native.nvim and run **`make'** command in powershell for telescope fzf plugin to work and avoid errors. <br><br>
+
 to setup chatgpt:
 - on Linux you can you use [password-store](https://www.passwordstore.org)  how to setup pass [youtube video](https://www.youtube.com/watch?v=FhwsfH2TpFA)<br>
 <!-- ►on Windows to quickly set up place your api key in Documents in file called **`openaikey.txt`** in **`Documents folder`**<br> -->
