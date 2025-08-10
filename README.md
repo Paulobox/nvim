@@ -33,7 +33,7 @@ git clone https://github.com/Paulobox/nvim
 1. Open powershell as administrator and install these with [Chocolatey](https://chocolatey.org/):
 
 ```powershell
-choco install mingw fzf make -y
+choco install miniconda mingw fzf make -y
 ```
 
 2. Install [Node.js](https://nodejs.org/en/download) <br>
