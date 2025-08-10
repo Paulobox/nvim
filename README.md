@@ -30,7 +30,7 @@ git clone https://github.com/Paulobox/nvim
 ---
 
 ###### #note Windows installation is more complicated🤓, some of **`lsp`** installations on Windows (for Mason plugin) needing Anaconda or [(Miniconda)](https://www.anaconda.com/docs/getting-started/miniconda/install#powershell) prompt + you need clangd compiler on Windows for lsps **`mingw`** <br> 
-1. Open powershell as administrator and install these with [(Chocolatey)](https://chocolatey.org/):
+1. Open powershell as administrator and install these with [Chocolatey](https://chocolatey.org/):
 
 ```powershell
 choco install mingw fzf make -y
