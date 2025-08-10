@@ -39,9 +39,11 @@ choco install mingw fzf make -y
 2. Install [Node.js](https://nodejs.org/en/download) <br>
 3. Run these command in terminal:
 ```
-npm install -g npm <br>
+npm install -g npm
 ```
 
+ <br>
+ 
 ---
 
 [WakaTime](https://wakatime.com/neovim)
